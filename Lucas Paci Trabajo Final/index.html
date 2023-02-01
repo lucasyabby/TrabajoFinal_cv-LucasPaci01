@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea tu CV</title>
+    <link rel="stylesheet" href="estilos.css"/>
+    
+</head>
+<body>
+    
+    <div id="container">
+        
+        <header>
+            <div class="logos">
+                
+                <img src="logos.png" alt="Trabajo final" class="logos-img">
+                <h1>Trabajo final</h1>
+
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>      
+                </li>
+
+                <li>
+                    <a href="cv.html">Mi CV</a>      
+                </li>
+                
+            </ul>
+        </nav>
+
+        <form id="formulario">
+            <h2 id="form">Formulario</h2>
+
+            <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+            <input class="controls" type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+            <input class="controls" type="text" name="direccion" id="direccion" placeholder="Direccion" required>
+            <input class="controls" type="number" name="edad" id="edad" placeholder="Edad" min="18" max="100" required>
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Email" required>
+            <input class="controls" type="text" name="experiencia laboral" id="experiencia" placeholder="Ingrese su experiencia laboral" required ><br>
+            
+            <button type="submit" id="boton">Enviar</button>
+        </form>
+
+        <footer>
+            Lucas Matías Paci WEB &copy; 2023
+        </footer>
+
+    </div>
+</body>
+</html>
